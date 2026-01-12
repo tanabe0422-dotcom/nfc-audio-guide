@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音声ガイド</title>
+</head>
+<body>
+  <button onclick="playAudio()">▶ 音声ガイドを聞く</button>
+
+  <audio id="audio" src="guide01.mp3" playsinline></audio>
+
+  <script>
+    function playAudio() {
+      document.getElementById('audio').play();
+    }
+  </script>
+</body>
+</html>
